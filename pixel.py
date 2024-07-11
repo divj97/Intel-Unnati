@@ -38,8 +38,8 @@ srcnn_model = build_srcnn_model()
 def super_resolve_image(model, image_path):
     input_image = preprocess_image(C:\Users\Dell\Desktop\inputimage\intelprojectimage2.jpg)
     output_image = model.predict(input_image)
-    output_image = np.squeeze(C:\Users\Dell\Desktop\outputimage\intelprojectimage2.jpg, axis=0)
-    output_image = np.squeeze(C:\Users\Dell\Desktop\outputimage\intelprojectimage2.jpg, axis=-1)
+    output_image = np.squeeze(C:\Users\Dell\Desktop\outputimage\intelprojectimage3.jpg, axis=0)
+    output_image = np.squeeze(C:\Users\Dell\Desktop\outputimage\intelprojectimage3.jpg, axis=-1)
     output_image = (output_image * 255.0).astype(np.uint8)
     return output_image
 
